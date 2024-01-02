@@ -17,7 +17,7 @@ export const authRoutes = ["/auth/login", "/auth/register"];
  * Routes that start with this prefix are uesd for API authentication purposes.
  * @type {string}
  */
-export const apiAuthPrefix = "api/auth";
+export const apiAuthPrefix = "/api/auth";
 
 /**
  * The defauklt redirect path after logging in.
