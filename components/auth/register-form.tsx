@@ -4,8 +4,8 @@ import { useState, useTransition } from "react";
 import { register } from "@/actions/register";
 
 import * as z from "zod";
-import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
 import { RegisterSchema } from "@/schemas";
 
 import { Button } from "@/components/ui/button";

@@ -1,6 +1,7 @@
 "use client";
 
 import { signIn } from "next-auth/react"; // This is a way to do it without using server components
+
 import { DEFAULT_LOGIN_REDIRECT } from "@/routes";
 
 import { FaGithub } from "react-icons/fa";

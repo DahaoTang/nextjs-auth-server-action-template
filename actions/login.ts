@@ -1,13 +1,13 @@
 "use server";
 
+import * as z from "zod";
 import { AuthError } from "next-auth";
 
-import * as z from "zod";
-
 import { signIn } from "@/auth";
-import { LoginSchema } from "@/schemas";
+
 import { DEFAULT_LOGIN_REDIRECT } from "@/routes";
 
+import { LoginSchema } from "@/schemas";
 import { generateVerificationToken } from "@/lib/tokens";
 import { getUserByEmail } from "@/data/user";
 import { sendVerificationEmail } from "@/lib/mail";
