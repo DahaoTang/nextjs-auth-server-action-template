@@ -1,4 +1,4 @@
-import NextAuth from "next-auth";
+import NextAuth, { NextAuthConfig } from "next-auth";
 import { UserRole } from "@prisma/client";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 
@@ -70,7 +70,7 @@ export const {
 	 * Otherwise we have to use a mix of Auth.js and NextAuth.js
 	 * Last edited: 09/01/2024
 	 */
-	adapter: PrismaAdapter(db),
+	adapter: PrismaAdapter(db) as unknown as NextAuthConfig["adapter"],
 	session: { strategy: "jwt" },
 	...authConfig,
 });
