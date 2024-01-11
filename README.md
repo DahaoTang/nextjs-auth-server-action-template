@@ -8,7 +8,7 @@
 
 - Credential register and login
 - Social login
-- Email verification (with [resend](https://resend.com/))
+- Email verification (with [Resend](https://resend.com/))
 - Reset password
 
 ## How to use
