@@ -38,8 +38,6 @@ export const {
 			// Prevent sigin without email verification
 			if (!existingUser?.emailVerified) return false;
 
-			// TODO: Add 2FA check
-
 			return true;
 		},
 		async session({ token, session }) {
