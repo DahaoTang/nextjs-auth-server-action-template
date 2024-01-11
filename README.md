@@ -1,5 +1,7 @@
 # Next.js Project Authentication Template
 
+-- 2023 December Personal Project
+
 **Modified based on: [CodeWithAntonio](https://github.com/AntonioErdeljac/next-auth-v5-advanced-guide)**
 
 ## Supported Features
