@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 
 import { BeatLoader } from "react-spinners";
 
-import { newVerification } from "@/actions/new-verification";
+import { newVerification } from "@/actions/auth/new-verification";
 
 import { CardWrapper } from "@/components/auth/card-wrapper";
 import { FormError } from "@/components/form-error";

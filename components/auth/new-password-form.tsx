@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
-import { newPassword } from "@/actions/new-password";
+import { newPassword } from "@/actions/auth/new-password";
 
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";

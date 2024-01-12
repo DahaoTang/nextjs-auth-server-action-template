@@ -2,13 +2,16 @@
 
 -- 2023 December Personal Project
 
-
 ## Supported Features
 
 - Credential register and login
 - Social login
 - Email verification (with [Resend](https://resend.com/))
 - Reset password
+
+## Highlights
+
+1. The user authentication is done through Next.js server actions mainly; you can do it using APIs as well.
 
 ## How to use
 
