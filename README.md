@@ -2,6 +2,8 @@
 
 -- 2023 December Personal Project
 
+**This template is implemented using Next.js server actions.**
+
 ## Supported Features
 
 - Credential register and login
